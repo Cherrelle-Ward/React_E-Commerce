@@ -1,8 +1,8 @@
 const Header = () => {
   return (
     <div className="Header">
-      <h1>SHOP</h1>
-      <p>Something about page</p>
+      <h1>Cats "R" Us</h1>
+      <p>Bringing paws to your doorstep</p>
     </div>
   );
 };

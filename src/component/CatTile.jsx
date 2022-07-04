@@ -16,7 +16,7 @@ const CatTile = ({ catData, addBasket }) => {
             <p className="catName">{item.name}</p>
             <p className="catBreed">{item.cat}</p>
             <p className="catCountry">{item.country}</p>
-            <p className="catPrice">{item.price}</p>
+            <p className="catPrice">£{item.price}</p>
             <button
               className="button-13"
               onClick={() => {
