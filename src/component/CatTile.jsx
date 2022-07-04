@@ -11,9 +11,9 @@ const CatTile = ({ catData, addBasket }) => {
     <div>
       <div className="tiles">
         {catData.map((item, index) => (
-          <div className="catTile">
-            <img className="catImage" key={index} src={item.url} alt="cats" />
-            <p className="catName">{item.name}</p>
+          <div className="catTile" key={index}>
+            <img className="catImage" src={item.url} alt="cats" />
+            <p className="catName"> {item.name}</p>
             <p className="catBreed">{item.cat}</p>
             <p className="catCountry">{item.country}</p>
             <p className="catPrice">£{item.price}</p>
